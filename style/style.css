@@ -1,3 +1,56 @@
+
+footer{
+    background: linear-gradient(180deg, green, rgb(9, 61, 31));
+    width: 100%;
+    height: 400px;
+    flex: 1 0 auto;
+    border-top: 1px ;
+    flex-shrink: 0;
+
+}
+
+    padding-top: 90px;
+   
+   
+}
 .foot{
-    background-color: black;
+    margin-left: 50px;
+    
+
+}
+.foot ul{
+    list-style-type: none;
+    
+}
+.foot ul li a{
+    color: white;
+}
+.vide{
+    width: 80%;
+    height: 3px;
+    background-color: white;
+    margin-left: 105px;
+}
+.pat{
+    margin-left: 420px;
+}
+.footimage img{
+    border-radius: 200px;
+}
+.footicon{
+    margin-top: 80px;
+    
+}
+.footicon ul{
+    margin-left: 20px;
+    display: flex
+}
+.footicon ul li a img{
+    width: 30px;
+    color: grey;
+}
+
+
+.body{
+    color: grey;
 }
