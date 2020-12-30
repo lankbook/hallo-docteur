@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}                                /*l'entete*/
+.bg-green{
+    background-color: green;
+}
+body{
+    background-color: grey;
+    list-style:none ;
+    color:white ;
+}
+ul li{
+    display: inline;
+    margin-left: 60px;
+   
+}
+ul{
+    color: white;
+}
+
+.menu{
+    margin-top:40px;
+    list-style: none;
+    color: white;
+}
+.txtmenu a {
+    display:flex;
+}
+.txtmenu .logo{
+    border-radius:30px ;
+    margin-top:6px ;
+}
+.txt1{
+    position: relative;
+    top: 8px;
+}
+.entete{
+    border-bottom: 5px solid black;
+}
+.RC{
+    margin-top: 25px;
+}                         /* Debut contenu*/
