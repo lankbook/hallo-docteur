@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    border: solid 1px black;
+}
+.titre_maternite{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+body .container .row .bloc_details_maternite{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.p_centre{
+    text-align: justify;
+}
+body .container .row_last_bloc_maternite .bloc_accouchement .img_accouchement{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_maternite:hover{
+    box-shadow: 1px 1px 10px 10px rgb(192, 17, 17);
+}
+body .container .row_last_bloc_maternite .bloc_accouchement .h4_accouchement{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+body .container .row_last_bloc_maternite .bloc_hospitalisation .img_hospitalisation{
+    float: right;
+    
+}
+body .container .row_last_bloc_maternite .bloc_hospitalisation .h4_hospitalisation{
+    text-align: right;
+}
+.a_titre_sous_servive_maternite:hover{
+    text-decoration: none;
+}
+.titre_sous_servive_maternite{
+    color: green;
+    font-weight: bold;
+}
+.details_sous_services{
+    width: 50%;
+}
