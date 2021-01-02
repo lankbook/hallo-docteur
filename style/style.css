@@ -2,16 +2,10 @@
 footer{
     background: linear-gradient(180deg, green, rgb(9, 61, 31));
     width: 100%;
-    height: 400px;
+    height: 340px;
     flex: 1 0 auto;
     border-top: 1px ;
-    flex-shrink: 0;
-
-}
-
-    padding-top: 90px;
-   
-   
+    flex-shrink: 0;   
 }
 .foot{
     margin-left: 50px;
@@ -29,13 +23,10 @@ footer{
     width: 80%;
     height: 3px;
     background-color: white;
-    margin-left: 105px;
+    margin:0 auto;
 }
 .pat{
     margin-left: 420px;
-}
-.footimage img{
-    border-radius: 200px;
 }
 .footicon{
     margin-top: 80px;
@@ -51,6 +42,35 @@ footer{
 }
 
 
-.body{
-    color: grey;
+body{
+    background-color: rgba(224, 224, 224, 0.808);
 }
+.temoignage ul li{
+    list-style: none;
+}
+.temoin ul li {
+    list-style: none;
+    list-style-type: none;
+}
+.temoin{
+  margin-left:100px ;
+    display: flex;
+    margin-top: 100px;
+}
+.spec{
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.spe ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+.spe{
+    margin-left:170px ;
+      display: flex;
+      
+  }
+  .special ul li{
+      list-style-type: none;
+  }
