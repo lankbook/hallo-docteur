@@ -60,11 +60,104 @@ ul{
     margin-top: 10px;
 
 }
+
+
+
                                 /* Debut page contact */
 
+
+.imageF{
+    background-image: url(C:\Users\hP\Desktop\PROJETALLODOCTEUR\hallo-docteur\style\images-batiment);
+    border: 1px solid black;
+    height: 350px;
+    width: 950px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
 .ccarte{
+   margin-left: 600px;
+  position: relative;
+  bottom: 250px;
+  
+     
+ }
+ .textAD{
     
+     width: 600px;
+     height: 350px;
+ }
+ .ct{
+     
+     margin-top: 25px;
+     margin-left: 20px;
+ }
+ .l1{
+     border:black solid 3px;
+     width: 200px;
+     margin-inline: 10px;
+ }
+ .BH{
+     display: flex;
+     margin-left: 250px;
+     margin-top: 15px;
+ }
+ .boutton{
+     margin-left: 500px;
+ }
+ 
+ .formulaire{
+     width: 600px;
+     margin-left: 200px;
+     margin-top: 25px;
+ }
+                                                /* Fin page contact */
+
+                                    /* Debut page A propos */
+
+.capp{
+   
+    margin-top: 55px;
+}
+.l2{
+    border:black solid 2px;
+    width: 150px;
+    margin-inline: 90px;
+}
+.BH2{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 55px;
+}
+.textapp{
+
+margin-top: 55px;
+
+}
+.imagev{
+    margin-left: 320px;
+  
+}
+.imagev img{
+border-radius: 35px;
+}
+.textev{
+    
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 25px;
+
 }
 
-
-
+.tvlr{
+    margin-left: 200px;
+}
+.formulaire{
+    
+    margin-left: 400px;
+    position: relative;
+    top: 55px;
+    
+}
+.formm{
+    height: 300px;
+}
