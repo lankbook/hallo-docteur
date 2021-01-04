@@ -3,7 +3,7 @@
     padding: 0%;
 }
 body{
-    border: solid 1px black;
+
 }
 .titre_maternite{
     text-align: center;
@@ -47,4 +47,38 @@ body .container .row_last_bloc_maternite .bloc_hospitalisation .h4_hospitalisati
 }
 .details_sous_services{
     width: 50%;
+    display: none;
+
+}
+.img_maternite:hover .details_sous_services{
+    display: block;
+}
+
+/*style de pharmacopee*/
+.image_Pharma{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titre_sous_pharma{
+    color: green;
+    font-weight: bold;
+}
+.h4_ressources{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h4_documentation{
+    text-align: right;
+}
+.details_definition{
+    display: block;
+    width: 40%;
+}
+.details_ressources{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
