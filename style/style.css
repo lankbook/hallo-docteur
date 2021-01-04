@@ -5,6 +5,9 @@
 .bg-green{
     background-color: green;
 }
+.contenu{
+    background-color: rgb(201, 198, 198);
+}
 
 ul li{
     display: inline;
@@ -160,4 +163,33 @@ border-radius: 35px;
 }
 .formm{
     height: 300px;
+}
+                      /* Début page Urgence*/
+.latete{
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.latete img{
+    height: 300px;
+    width: 600px;
+
+}
+.ligne{
+    margin-top: 20px;
+}
+
+.Iurgence1{
+    margin-top: 8%;
+    margin-left:5% ;
+}
+.Iurgence{
+    margin-left: -15px;
+}
+.Iurgencec{
+    margin-left: 15px;
+}
+.Iurgenceg{
+    margin-left: 15px;
+    height: 390px;
 }
