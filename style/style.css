@@ -2,9 +2,13 @@
     margin: 0%;
     padding: 0%;
 }
+<<<<<<< HEAD
 body{
 
 }
+=======
+/* debut page maternite adja */
+>>>>>>> aaa287af617e3ed5213cb4a024266d58eb295523
 .titre_maternite{
     text-align: center;
     color: green;
@@ -47,6 +51,7 @@ body .container .row_last_bloc_maternite .bloc_hospitalisation .h4_hospitalisati
 }
 .details_sous_services{
     width: 50%;
+<<<<<<< HEAD
     display: none;
 
 }
@@ -75,6 +80,7 @@ body .container .row_last_bloc_maternite .bloc_hospitalisation .h4_hospitalisati
 .details_definition{
     display: block;
     width: 40%;
+
 }
 .details_ressources{
     text-align: left;
@@ -82,3 +88,283 @@ body .container .row_last_bloc_maternite .bloc_hospitalisation .h4_hospitalisati
     margin-right: auto;
     width: 40%;
 }
+.jardin{
+    display: flex;
+    width:;
+}
+.formation_pharma li{
+    color: black;
+    
+}
+=======
+}
+
+    
+/* DEBUT FOOTER  max*/
+footer{
+    background: linear-gradient(180deg, green, rgb(9, 61, 31));
+    width: 100%;
+    height: 340px;
+    flex: 1 0 auto;
+    border-top: 1px ;
+    flex-shrink: 0;   
+}
+.foot{
+    margin-left: 50px;
+    
+
+}
+.foot ul{
+    list-style-type: none;
+    
+}
+.foot ul li a{
+    color: white;
+}
+.vide{
+    width: 80%;
+    height: 3px;
+    background-color: white;
+}
+.pat{
+    
+}
+.footicon{
+    margin-top: 80px;
+    
+}
+.footicon ul{
+    margin-left: 20px;
+    display: flex
+}
+.footicon ul li a img{
+    width: 30px;
+    color: grey;
+}
+/* FIN FOOTER */
+
+
+body{
+    background-color: rgba(224, 224, 224, 0.808);
+}
+/* DEBUT PAGE ACCEUIL */
+/*l'entete acceuil  ronny*/
+.bg-green{
+    background-color: green;
+}
+
+ul li{
+    display: inline;
+    margin-left: 60px;
+   
+}
+ul{
+    color: white;
+}
+
+.menu{
+    margin-top:40px;
+    list-style: none;
+    color: white;
+}
+.txtmenu a {
+    display:flex;
+}
+.txtmenu .logo{
+    border-radius:30px ;
+    margin-top:6px ;
+}
+.txt1{
+    position: relative;
+    top: 8px;
+}
+.entete{
+    border-bottom: 5px solid 
+black;
+}
+.RC{
+    margin-top: 25px;
+}                         
+/* Fin entete*/
+
+/* Debut contenu page d'acceuil*/
+.B1{
+    border: 1px solid black;
+    margin-top: 20px;
+    height: 300px;
+    width: 700px;
+}
+.B2{
+    border: 1px solid black;
+    margin-top: 30px;
+    height: 200px;
+    width: 250px;
+    margin-left: 105px;
+}
+.B2 .bar{
+    border: 1px solid black;
+    background-color: green;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    .temoignage ul li{
+        list-style: none;
+    }
+    .temoin ul li {
+        list-style: none;
+        list-style-type: none;
+    }
+    .temoin{
+      margin-left:100px ;
+        display: flex;
+        margin-top: 100px;
+    }
+    .spec{
+        width: 100px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .spe ul li{
+        list-style: none;
+        margin-left: 10px;
+    }
+    .spe{
+        margin-left:170px ;
+          display: flex;
+          
+      }
+      .special ul li{
+          list-style-type: none;
+      }
+      /* FIN ACCEUIL */
+    
+
+}
+
+
+
+                                /* Debut page contact */
+
+
+.imageF{
+    background-image: url(C:\Users\hP\Desktop\PROJETALLODOCTEUR\hallo-docteur\style\images-batiment);
+    border: 1px solid black;
+    height: 350px;
+    width: 950px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.ccarte{
+   margin-left: 600px;
+  position: relative;
+  bottom: 250px;
+  
+     
+ }
+ .textAD{
+    
+     width: 600px;
+     height: 350px;
+ }
+ .ct{
+     
+     margin-top: 25px;
+     margin-left: 20px;
+ }
+ .l1{
+     border:black solid 3px;
+     width: 200px;
+     margin-inline: 10px;
+ }
+ .BH{
+     display: flex;
+     margin-left: 250px;
+     margin-top: 15px;
+ }
+ .boutton{
+     margin-left: 500px;
+ }
+ 
+ .formulaire{
+     width: 600px;
+     margin-left: 200px;
+     margin-top: 25px;
+ }
+                                                /* Fin page contact */
+
+                                    /* Debut page A propos */
+
+.capp{
+   
+    margin-top: 55px;
+}
+.l2{
+    border:black solid 2px;
+    width: 150px;
+    margin-inline: 90px;
+}
+.BH2{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 55px;
+}
+.textapp{
+
+margin-top: 55px;
+
+}
+.imagev{
+    margin-left: 320px;
+  
+}
+.imagev img{
+border-radius: 35px;
+}
+.textev{
+    
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 25px;
+
+}
+
+.tvlr{
+    margin-left: 200px;
+}
+.formulaire{
+    
+    margin-left: 400px;
+    position: relative;
+    top: 55px;
+    
+}
+.formm{
+    height: 300px;
+}
+
+  /* DEBUT PAGE LABORATOIRE*/
+
+.labo{
+    height: 500px;
+    background-image: url(../style/images/LABO.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.labo h2{
+    : 400px;
+    padding-left: 100px;
+    color: white;
+    font-size: 70px;
+    position: absolute;
+}
+/*corps*/
+.premier{
+    height: auto;
+    border: 3px solid white;
+    margin-bottom: 100px;
+}
+/*fin LABORATOIRE*/
+/* ronny */          
+>>>>>>> aaa287af617e3ed5213cb4a024266d58eb295523
