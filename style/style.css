@@ -87,22 +87,26 @@ black;
 }
 .RC{
     margin-top: 25px;
-}                         
+}       
+.txtmenu{
+    margin-top: 10px;
+}                  
 /* Fin entete*/
 
 /* Debut contenu page d'acceuil*/
 .B1{
-    border: 1px solid black;
-    margin-top: 20px;
+    
+    margin-top: 30px;
     height: 300px;
     width: 700px;
 }
 .B2{
-    border: 1px solid black;
+   
     margin-top: 30px;
     height: 200px;
     width: 250px;
     margin-left: 105px;
+    text-align: center;
 }
 .B2 .bar{
     border: 1px solid black;
@@ -135,10 +139,16 @@ black;
     .spe{
         margin-left:170px ;
           display: flex;
+        margin-top: 50px;
+        
           
       }
       .special ul li{
           list-style-type: none;
+      }
+      .acceuil{
+          margin-left: 150px;
+          
       }
       /* FIN ACCEUIL */
     
@@ -272,6 +282,36 @@ border-radius: 35px;
     margin-bottom: 100px;
 }
 /*fin LABORATOIRE*/
+
+                        /*DEBUT PAGE CHIRURGIE*/
+.chirurgie{
+     height: 500px;
+     background-image: url(../style/images/uchirurgicale.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-bottom: 100px;
+     margin-top: 50px;
+}
+.labo h2{
+    margin: 400px;
+    padding-left: 100px;
+    color: white;
+    font-size: 70px;
+    position: absolute;
+}
+                        /*corps*/
+.premier{
+    height: auto;
+    border: 3px solid white;
+    margin-bottom: 100px;
+}
+.bouttCH{
+    margin-left: 800px;
+}
+
+
+
+                      
 /* ronny */          
  
 
@@ -306,3 +346,55 @@ border-radius: 35px;
     margin-left: 15px;
     height: 390px;
 }
+                 /*menu déroulant service*/
+
+nav a{
+    display: block;
+    text-decoration: none;
+   
+  }
+  nav ul ul{
+    background-color: rgb(255, 255, 255);
+    display: none;
+    position: absolute;
+    min-width: 90%;
+  }
+  nav>ul{
+    display: flex;
+  }
+  nav>ul>li{
+    position: relative;
+    margin: 1px;
+    flex-grow: 15px;
+  }
+  nav ul ul li+li{
+    border-top: 1px solid white;
+  }
+  nav ul li a{
+    background-color: rgb(27, 138, 27);
+    padding: 10px 20px;
+    color: black;
+    text-align: center;
+  }
+  nav>ul>li>a{
+    background-color: green;
+    color: white;
+  } 
+  nav ul ul a{
+    background-color:  green,(282,97,1);
+    color: white;
+  }
+
+  .fleche {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    vertical-align: middle;
+    border-top: 6px solid;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+  } 
+                                       
+
+
