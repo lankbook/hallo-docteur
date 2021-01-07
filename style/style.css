@@ -1,14 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-}
-<<<<<<< HEAD
-body{
-
-}
-=======
 /* debut page maternite adja */
->>>>>>> aaa287af617e3ed5213cb4a024266d58eb295523
 .titre_maternite{
     text-align: center;
     color: green;
@@ -51,7 +44,6 @@ body .container .row_last_bloc_maternite .bloc_hospitalisation .h4_hospitalisati
 }
 .details_sous_services{
     width: 50%;
-<<<<<<< HEAD
     display: none;
 
 }
@@ -96,11 +88,7 @@ body .container .row_last_bloc_maternite .bloc_hospitalisation .h4_hospitalisati
     color: black;
     
 }
-=======
-}
-
-    
-/* DEBUT FOOTER  max*/
+    /* DEBUT FOOTER  max*/
 footer{
     background: linear-gradient(180deg, green, rgb(9, 61, 31));
     width: 100%;
@@ -108,11 +96,6 @@ footer{
     flex: 1 0 auto;
     border-top: 1px ;
     flex-shrink: 0;   
-}
-.foot{
-    margin-left;
-    
-
 }
 .foot ul{
     list-style-type: none;
@@ -222,7 +205,7 @@ black;
         margin-left: 10px;
     }
     .spe{
-        margin-left: ;
+
           display: flex;
           
       }
@@ -233,22 +216,11 @@ black;
           color: black;
           font-size: 10px;
       }
-      @media(max-width:320px){
-          header{
-              background-color: grey;
-              height: 100px;
-          }
-          .logo{
-              width: 500px;
-          }
-          
-      }
+
       
     
       /* FIN ACCEUIL */
     
-
-}
 
 
 
@@ -362,7 +334,6 @@ border-radius: 35px;
     margin-top: 50px;
 }
 .labo h2{
-    : 400px;
     padding-left: 100px;
     color: white;
     font-size: 70px;
@@ -376,4 +347,3 @@ border-radius: 35px;
 }
 /*fin LABORATOIRE*/
 /* ronny */          
->>>>>>> aaa287af617e3ed5213cb4a024266d58eb295523
