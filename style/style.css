@@ -1,8 +1,94 @@
 *{
     margin: 0%;
     padding: 0%;
-}                     
-/* DEBUT FOOTER */
+/* debut page maternite adja */
+.titre_maternite{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+body .container .row .bloc_details_maternite{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.p_centre{
+    text-align: justify;
+}
+body .container .row_last_bloc_maternite .bloc_accouchement .img_accouchement{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_maternite:hover{
+    box-shadow: 1px 1px 10px 10px rgb(192, 17, 17);
+}
+body .container .row_last_bloc_maternite .bloc_accouchement .h4_accouchement{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+body .container .row_last_bloc_maternite .bloc_hospitalisation .img_hospitalisation{
+    float: right;
+    
+}
+body .container .row_last_bloc_maternite .bloc_hospitalisation .h4_hospitalisation{
+    text-align: right;
+}
+.a_titre_sous_servive_maternite:hover{
+    text-decoration: none;
+}
+.titre_sous_servive_maternite{
+    color: green;
+    font-weight: bold;
+}
+.details_sous_services{
+    width: 50%;
+    display: none;
+
+}
+.img_maternite:hover .details_sous_services{
+    display: block;
+}
+
+/*style de pharmacopee*/
+.image_Pharma{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titre_sous_pharma{
+    color: green;
+    font-weight: bold;
+}
+.h4_ressources{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h4_documentation{
+    text-align: right;
+}
+.details_definition{
+    display: block;
+    width: 40%;
+
+}
+.details_ressources{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.jardin{
+    display: flex;
+    width:;
+}
+.formation_pharma li{
+    color: black;
+    
+}
+    /* DEBUT FOOTER  max*/
 footer{
     background: linear-gradient(180deg, green, rgb(9, 61, 31));
     width: 100%;
@@ -10,11 +96,6 @@ footer{
     flex: 1 0 auto;
     border-top: 1px ;
     flex-shrink: 0;   
-}
-.foot{
-    margin-left: 50px;
-    
-
 }
 .foot ul{
     list-style-type: none;
@@ -48,7 +129,7 @@ body{
     background-color: rgba(224, 224, 224, 0.808);
 }
 /* DEBUT PAGE ACCEUIL */
-/*l'entete acceuil */
+/*l'entete acceuil  ronny*/
 .bg-green{
     background-color: green;
 }
@@ -95,7 +176,7 @@ black;
 
 /* Debut contenu page d'acceuil*/
 .B1{
-    
+  
     margin-top: 30px;
     height: 300px;
     width: 700px;
@@ -107,14 +188,24 @@ black;
     width: 250px;
     margin-left: 105px;
     text-align: center;
+
+}
+.B2{
+   
+   
 }
 .B2 .bar{
     border: 1px solid black;
     background-color: green;
+
     width: 200px;
     margin-left: 25px;
     margin-top: 10px;
 }
+
+    width: 100%;
+
+
     .temoignage ul li{
         list-style: none;
     }
@@ -129,7 +220,7 @@ black;
     }
     .spec{
         width: 100px;
-        margin-top: 30px;
+        margin-top: 50px;
         margin-bottom: 50px;
     }
     .spe ul li{
@@ -137,7 +228,7 @@ black;
         margin-left: 10px;
     }
     .spe{
-        margin-left:170px ;
+
           display: flex;
         margin-top: 50px;
         
@@ -146,6 +237,7 @@ black;
       .special ul li{
           list-style-type: none;
       }
+
       .acceuil{
           margin-left: 150px;
           
@@ -153,6 +245,17 @@ black;
       /* FIN ACCEUIL */
     
 
+
+
+      .container p{
+          color: black;
+          font-size: 10px;
+      }
+
+      
+    
+      /* FIN ACCEUIL */
+    
 
 
 
@@ -269,7 +372,9 @@ border-radius: 35px;
     margin-top: 50px;
 }
 .labo h2{
+
     margin: 400px;
+
     padding-left: 100px;
     color: white;
     font-size: 70px;
@@ -282,6 +387,7 @@ border-radius: 35px;
     margin-bottom: 100px;
 }
 /*fin LABORATOIRE*/
+
 
                         /*DEBUT PAGE CHIRURGIE*/
 .chirurgie{
@@ -397,4 +503,7 @@ nav a{
   } 
                                        
 
+
+
+/* ronny */          
 
