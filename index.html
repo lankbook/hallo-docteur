@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hallo.dr</title>
+    <title>hallodr</title>
     <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/bootstrap/js/bootstrap.min.js">
     <link rel="stylesheet" href="style/style.css">
 </head>
-<body class="contenu">
+<body class="contenu"
+    <div class="container-fluid p-0">  <!-- Début entête -->
+        <header class="bg-green">
     <div class="container-fluid p-0"> 
          <!-- Début entête -->
         <header class="bg-green ">
@@ -16,8 +18,7 @@
                 <div class="entete row">
                     <div class=" txtmenu col-3">
                           <a class="text-decoration-none text-white" href="#"> <img 
-class="logo" src="style/images/Logo.png"  height="60px" width="60px" 
-alt=""> 
+                                class="logo" src="style/images/Logo.png"  height="60px" width="60px"alt=""> 
                                 <div class="txt1 ">
                                     <h5>Hallo Docteur</h5>
                                     <span>Clinique Espérance Vie </span>
@@ -27,6 +28,26 @@ alt="">
                         <div class="d-none d-sm-block menu col-6">
                             <nav class="navbar navbar-expand-lg" > 
                                 <ul class="navabar-nav">
+
+                                    <li class=" nav-item"><a class="text-decoration-none text-white" href="#">ACCEUIL</a></li>
+                                    <!-- LISTE DEROULLANTE-->
+                                    <li class="service nav-item"> <a class="text-decoration-none text-white" href="#">NOS SERVICES<span class="fleche"></span></a>
+                                        <ul>
+                                            <li><a href="#">URGENCE</a></li>
+                                            <li><a href="#">MATERNITE</a></li>
+                                            <li><a href="#">LABORATOIRE</a></li>
+                                            <li><a href="#">PHARMACOPEE</a></li>
+                                            <li><a href="#">CHIRURGIE</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class=" nav-item"><a class="text-decoration-none text-white" href="#">ARTICLES</a></li>
+                                    <li class=" nav-item"><a class="text-decoration-none text-white" href="#">CONTACTS</a></li>
+                               </ul>
+                            </nav>
+                        </div>   
+                             <div class="col-3">
+                                <div class="RC"> 
+                                    <input type="text" placeholder="Rechercher.." name="search">
                                     <li class=" nav-item"><a class="text-decoration-none 
 text-white" href="#">ACCEUIL</a></li>
                                     <li class=" nav-item"><a class="text-decoration-none 
@@ -42,6 +63,7 @@ text-white" href="#">CONTACTS</a></li>
                                 <div class="d-none d-sm-block RC"> 
                                     <input style="width: 100%;" type="text" placeholder="Rechercher.." 
 name="search">
+
                                     <button type="submit"><i class="fa fa-search"></i></button>
                                 </div>
                              </div>           
@@ -51,6 +73,13 @@ name="search">
 
         </header>                            <!-- Fin de l'entete-->
                                 
+                                <!-- Debut contenu acceuil-->
+            <section class="acceuil">
+                 <div class="container">
+                     <div class="row"> 
+                        <div class="B1 col-6-sm">
+                            
+                            <img src="style/images/DOC AFRICAINS.jpg" class="img-fluid" height="300px"width="700px" alt="">
                                 <!-- Debut contenu-->
             <section class="d-none d-sm-block contenu">
                  <div class="mt-4 container">
@@ -61,25 +90,27 @@ name="search">
                            <div style="" class="B2 col-4 bg-white mb-5 m-auto">
                                 <h4>Autres Prestations</h4>
                                 <div class="bar">
-                                       <a href="#"> Imagérie Médicale </a>   
+                                       <a class=" text-decoration-none text-white" href="#"> Imagérie Médicale </a>   
                                 </div>
                                 <br>
                                 <div class="bar">
-                                    <a href="#"> Anesthésie et réanimation </a>
+                                    <a  class=" text-decoration-none text-white" href="#"> Anesthésie et réanimation </a>
                                 </div>
                                 <br>
                                 <div class="bar">
-                                    <a href="#"> Anesthésie et réanimation </a>
+                                    <a class=" text-decoration-none text-white" href="#"> Anesthésie et réanimation </a>
                                 </div>
                            </div>
       
                      </div>
                  </div>
+                      
                        <div class="barresH">
                              <hr class="hr1"> <strong> </strong> <hr class="hr2">
                        </div>
 
-                 <!-- test carousel-->
+
+                 <!--  carousel à mettre-->
                  
 
             </section>
@@ -87,6 +118,13 @@ name="search">
     </div>
 	<body>
 <!--debut services-->
+
+<div class="container">
+    <div class="spe">
+        <ul><li><div style="width: 150px;height: 2px;background-color: black;margin-top: 10px;"></div></li></ul>
+        <ul><li><h3 >NOS SERVICES</h3></li></ul>
+        <ul><li><div style="width: 150px;height: 2px;background-color: black; margin-top: 10px;"></div></li></ul>
+
 <div class="container-fluid">
         <div class="spe d-none d-sm-block ">
             <div class="row">
@@ -136,6 +174,18 @@ name="search">
 <!--debut specialites-->
     <div class="d-none d-sm-block pt-5 specialites  ">
         <div class="spe">
+
+            <ul><li><div style="width: 150px;height: 2px; background-color: black;margin-top: 10px;"></div></li></ul>
+            <ul><li> <h3>SPECIALISTES</h3></li></ul>
+            <ul><li><div style="width: 150px;height: 2px;background-color: black; margin-top: 10px;"></div></li></ul>
+        </div>
+        <div class="row special m-auto">
+            <div style="background-color: white;height: 400px;" class="col-4 shadow m-auto">
+                <ul><li><img class="spec" src="style/images/medecin.jpg" alt=""><span>speciaste</span></li>
+                      <li><img style="height: 100px;" class="spec rounded-circle" src="style/images/adja.jpg" alt=""><span>speciaste</span></li>
+                         <li><img class="spec" src="style/images/medecin.jpg" alt=""><span>speciaste</span></li>
+                </ul>
+
 			<div class="row">
 			<div class="col-3"></div>
                 <div class="d-flex col-6">
@@ -163,6 +213,7 @@ name="search">
                         <br>
                     <br>
                 </span>
+
             </div>
             <div  style="background-color: white;height: auto;margin-left: 20px;" class="col-4 shadow m-auto">
                 <img class="w-25 h-25 mt-4 rounded-circle spec" src="style/images/dr3.jpeg" alt="">
@@ -173,11 +224,17 @@ name="search">
             <img class="h-50 w-25 mt-3 rounded-circle spec" src="style/images/dr6.jpeg"alt="">
             <span>SAMUEL KABORE</span>
             </div>
+
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v9.0"nonce="LQOgTynS"></script>
+                <div style="background-color: white;height:400px;" class="col-3 shadow ">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F103302851710955%2Fposts%2F103309521710288%2F%3Fsubstory_index%3D0%26sfnsn%3Dmo&tabs=timeline&width=300&height=100&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
+
             <script async defer crossorigin="anonymous" src="https://
 connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v9.0" 
 nonce="LQOgTynS"></script>
                 <div style="background-color: white;height:auto;" class="col-3 shadow ">
                     <iframe style="width: 100%;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F103302851710955%2Fposts%2F103309521710288%2F%3Fsubstory_index%3D0%26sfnsn%3Dmo&tabs=timeline&width=300&height=100&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
+
                 <div id="fb-root"></div>
         </div>
     </div>
@@ -251,7 +308,7 @@ nonce="LQOgTynS"></script>
     </div>
 </div>
       <!--fin temoignage-->
-
+                <script src="style/Javasrp.js"></script>  <!-- java-->
 </body>
 <footer class="d-none d-sm-block">
     <div class="container d-n " >
